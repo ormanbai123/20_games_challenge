@@ -1,0 +1,5 @@
+#1 Something wrong when giving BOMBER skill to lemming. Specifically, sometimes frames are SKIPPED,
+and lemming explodes immediately without animation.  
+
+13.02.25
+#1 is probably solved. I needed to reset full/half cycle done flags is "set_state" function.  
